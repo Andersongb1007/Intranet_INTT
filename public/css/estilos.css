@@ -1,0 +1,166 @@
+
+.b_lr{
+    margin: 100;
+    min-width: 0vh;
+    background-image: url("../img/Intt2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.b_lr::before{
+    content: "";
+    width: 100%;
+    min-width: 100vh;
+    position:absolute;
+    top: 0;
+}
+.none{
+    text-decoration: none;
+}
+.b_comunicado{
+    background: linear-gradient(to bottom, rgb(100, 178, 214), rgb(223, 154, 154));
+}
+.b_noticia{
+    background: linear-gradient(to right, #d87274 10%, #965bc7); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b_evento{
+    background: radial-gradient(circle at top left, #fdbb2d, #22c1c3);   
+}
+.color{
+    background-color: #374248;
+}
+.centrar{
+    text-align: center;
+    align-items: center;
+    
+}
+.logo-menu{
+    width: 200px;
+}
+.logocomunicado{
+    max-width: 200px;
+}
+.barra{
+    background: #303030;
+    height: 2px;
+    margin: 0 auto;
+    
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+.fecha{
+   
+    font-size: 20px;
+    font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+}
+.divimg{
+ 
+    margin: 0 auto;   
+    background-color: #303030;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 720px;
+}
+.pie{
+    width: 100%;
+}
+.imgen{
+ 
+    margin: 0 auto;   
+ 
+    
+    max-width: 600px;
+}
+.tab1{
+
+    background-color: #1542be33;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.tab2{
+
+    background-color: #31be1533;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+.tab3{
+
+    background-color: #4815be33;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.result{
+    margin: 0 auto;
+    width: 400px;
+}
+.error{
+    text-align: center;
+    color: #5f0000;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 400;
+}
+.titulo{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+.captcha{
+    width: 120px;
+    
+}
+
+.titulo2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+
+.subtitulo{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.767);
+    text-align: center;
+}
+.noticia{
+    font-size: 20px;
+    
+    font-weight: 300;
+    text-transform: initial;
+    color: rgba(0, 0, 0, 0.678);
+    text-align: justify;
+}
+.texto{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-transform: initial;
+    color: rgba(0, 0, 0, 0.733);
+    text-align: justify;
+}
+.negrita{
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.sign-logo{
+    max-width: 400px;
+}
